@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.sch.springboot.SpringbootApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-08-26T05:17:54" hostname="SECU_2024" time="0.491">
+  <properties/>
+  <testcase name="contextLoads()" classname="edu.sch.springboot.SpringbootApplicationTests" time="0.491"/>
+  <system-out><![CDATA[14:17:53.361 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [edu.sch.springboot.SpringbootApplicationTests]: SpringbootApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:17:53.434 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration edu.sch.springboot.SpringbootApplication for test class edu.sch.springboot.SpringbootApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.3)
+
+2024-08-26T14:17:53.705+09:00  INFO 4056 --- [springboot] [    Test worker] e.s.s.SpringbootApplicationTests         : Starting SpringbootApplicationTests using Java 17.0.12 with PID 4056 (started by modori205 in D:\study\springboot)
+2024-08-26T14:17:53.706+09:00  INFO 4056 --- [springboot] [    Test worker] e.s.s.SpringbootApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2024-08-26T14:17:54.355+09:00  INFO 4056 --- [springboot] [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-08-26T14:17:54.552+09:00  INFO 4056 --- [springboot] [    Test worker] e.s.s.SpringbootApplicationTests         : Started SpringbootApplicationTests in 1.007 seconds (process running for 1.802)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
